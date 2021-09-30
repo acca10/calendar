@@ -163,7 +163,7 @@ section img {
   text-align: center;
 }
 
-heading1 span,
+.heading1 span,
 .heading2 span,
 .heading3 span {
   position: relative;

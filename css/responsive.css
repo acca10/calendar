@@ -159,6 +159,11 @@ section img {
   flex-flow: column nowrap;
 }
 
+.gallery img {
+  width: auto;
+  height: auto;
+}
+
 /* ABOUT */
 .About {
   display: flex;
