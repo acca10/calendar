@@ -104,7 +104,7 @@ section img {
 }
 
 .asa img {
-  margin: 0 20px 0 40px;
+  margin: 0 20px 0 30px;
 }
 
 .asa p {
@@ -149,7 +149,8 @@ section img {
 /* GALLERY */
 .Gallery-wrap {
   margin-top: 80px;
-  background-image: none;
+  /* background-image: url(../img/wallpaper_sp.jpg); */
+  background-image: repeating-linear-gradient(0deg, rgba( 163, 163, 163, 0.3) 0px 10px, rgba( 0, 0, 0, 0) 10px 20px), repeating-linear-gradient(90deg, rgba(163, 163, 163, 0.3) 0px 10px, rgba( 0, 0, 0, 0) 10px 20px);
 }
 
 .Gallery-wrap h1 {
