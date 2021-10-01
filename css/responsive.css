@@ -149,6 +149,7 @@ section img {
 /* GALLERY */
 .Gallery-wrap {
   margin-top: 80px;
+  background-image: none;
 }
 
 .Gallery-wrap h1 {
