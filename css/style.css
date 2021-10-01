@@ -77,7 +77,6 @@ nav {
 .Header-wrapper section {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   margin-top: 50px;
 }
 
@@ -177,7 +176,7 @@ section img {
   position: absolute;
   top: -20px;
   left: 50%;
-  transform: translate(-50%, 10px);
+  transform: translate(-50%, 20px);
   color: #66cfcf;
   opacity: 0.6;
   font-size: 80px;
