@@ -177,7 +177,7 @@ section img {
   position: absolute;
   top: -20px;
   left: 50%;
-  transform: translate(-50%, 20px);
+  transform: translate(-50%, 30px);
   color: #66cfcf;
   opacity: 0.6;
   font-size: 80px;
