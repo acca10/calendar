@@ -5,9 +5,19 @@
   .sp {
     display: none;
   }
+
+  .wrapper {
+    margin: 0 -100px;
+  }
+
+  .day {
+    position: relative;
+    top: 90px;
+    left: 180px;
+  }
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 649px) {
   /* 共通 */
   .pc {
     display: none;
