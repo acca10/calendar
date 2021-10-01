@@ -104,7 +104,7 @@ section img {
 }
 
 .asa img {
-  margin: 0 20px;
+  margin: 0 20px 0 40px;
 }
 
 .asa p {
@@ -142,7 +142,8 @@ section img {
 .heading1::before,
 .heading2::before,
 .heading3::before {
-  font-size: 50px;
+  top: -30px;
+  font-size: 55px;
 }
 
 /* GALLERY */
@@ -197,7 +198,7 @@ section img {
 
 /* PAGETOP */
 #page-top {
-  right: 110px;
+  right: 10px;
 }
 
 /* FOOTER */
