@@ -142,8 +142,8 @@ section img {
 .heading1::before,
 .heading2::before,
 .heading3::before {
-  top: -30px;
-  font-size: 55px;
+  top: -60px;
+  font-size: 50px;
 }
 
 /* GALLERY */
