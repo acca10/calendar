@@ -21,7 +21,7 @@ function handleInternalLink() {
   const menu = document.getElementById('menu')
   const menuItems = menu.querySelectorAll('a')
 
-  menuItems.forEach(item => {
+  menuItems.forEach((item) => {
     const link = item.getAttribute('href')
 
     if (!link.startsWith('#') || link === '#') {
@@ -41,7 +41,7 @@ function handleInternalLink() {
 
       window.scrollTo({
         top,
-        behavior: 'smooth'
+        behavior: 'smooth',
       })
     })
   })
