@@ -30,8 +30,6 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <!-- jquery   -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="icon" type="image/jpg" href="img/logo.jpg" />
   </head>
 
@@ -42,11 +40,11 @@
           <img src="./img/logo.jpg" />
         </div>
         <nav>
-          <ul class="menu">
+          <ul class="menu" id="menu">
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#about">About</a></li>
             <li>
-              <a href="#" target="“_blank”">
+              <a href="#" target="_blank">
                 <span class="material-icons"> shopping_cart </span>
                 Store
               </a>
@@ -146,76 +144,7 @@
 
         <div class="pic today">
           <h1 class="day">今日のコトバ</h1>
-          <img src="" width="443" id="target" alt="今日のコトバ" />
-          <script language="JavaScript">
-            let target = document.querySelector('#target')
-            today = new Date()
-            d = today.getDate()
-
-            if (d === 1) {
-              target.src = './img/day/1.jpg'
-            } else if (d === 2) {
-              target.src = './img/day/2.jpg'
-            } else if (d === 3) {
-              target.src = './img/day/3.jpg'
-            } else if (d === 4) {
-              target.src = './img/day/4.jpg'
-            } else if (d === 5) {
-              target.src = './img/day/5.jpg'
-            } else if (d === 6) {
-              target.src = './img/day/6.jpg'
-            } else if (d === 7) {
-              target.src = './img/day/7.jpg'
-            } else if (d === 8) {
-              target.src = './img/day/8.jpg'
-            } else if (d === 9) {
-              target.src = './img/day/9.jpg'
-            } else if (d === 10) {
-              target.src = './img/day/10.jpg'
-            } else if (d === 11) {
-              target.src = './img/day/11.jpg'
-            } else if (d === 12) {
-              target.src = './img/day/12.jpg'
-            } else if (d === 13) {
-              target.src = './img/day/13.jpg'
-            } else if (d === 14) {
-              target.src = './img/day/14.jpg'
-            } else if (d === 15) {
-              target.src = './img/day/15.jpg'
-            } else if (d === 16) {
-              target.src = './img/day/16.jpg'
-            } else if (d === 17) {
-              target.src = './img/day/17.jpg'
-            } else if (d === 18) {
-              target.src = './img/day/18.jpg'
-            } else if (d === 19) {
-              target.src = './img/day/19.jpg'
-            } else if (d === 20) {
-              target.src = './img/day/20.jpg'
-            } else if (d === 21) {
-              target.src = './img/day/21.jpg'
-            } else if (d === 22) {
-              target.src = './img/day/22.jpg'
-            } else if (d === 23) {
-              target.src = './img/day/23.jpg'
-            } else if (d === 24) {
-              target.src = './img/day/24.jpg'
-            } else if (d === 25) {
-              target.src = './img/day/25.jpg'
-            } else if (d === 26) {
-              target.src = './img/day/26.jpg'
-            } else if (d === 27) {
-              target.src = './img/day/27.jpg'
-            } else if (d === 28) {
-              target.src = './img/day/28.jpg'
-            } else if (d === 29) {
-              target.src = './img/day/29.jpg'
-            } else if (d === 30) {
-              target.src = './img/day/30.jpg'
-            } else {
-              target.src = './img/day/31.jpg'
-            }
-          </script>
+          <div id="word-of-today"></div>
         </div>
       </section>
 
