@@ -108,7 +108,7 @@ section img {
 }
 
 .asa p {
-  margin: 10px 0 30px 110px;
+  margin: 10px 0 30px 130px;
 }
 
 .text p {
@@ -142,7 +142,7 @@ section img {
 .heading1::before,
 .heading2::before,
 .heading3::before {
-  top: -60px;
+  transform: translateX(-55%);
   font-size: 50px;
 }
 
