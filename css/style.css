@@ -65,7 +65,7 @@ nav {
 .menu a {
   color: #fff;
   padding: 10px;
-  background-color: #15B0B0;
+  background-color: #15b0b0;
   opacity: 0.6;
   border-radius: 15px;
 }
@@ -124,21 +124,15 @@ section img {
   text-align: center;
 }
 
-.day {
-  position: relative;
-  top: 90px;
-  left: 180px;
-}
-
 .asa img {
   width: 300px;
   height: 300px;
   margin: 80px 0 0 100px;
 }
- .asa p {
+.asa p {
   margin-top: ５px;
   margin-left: 200px;
- }
+}
 
 .eco {
   display: flex;
@@ -232,7 +226,7 @@ section img {
 
 .About-wrapper h1 {
   padding: 30px 30px 0 50px;
-  color: #15B0B0;
+  color: #15b0b0;
   font-size: 50px;
   font-style: italic;
 }
@@ -255,7 +249,7 @@ section img {
 
 .content p {
   margin-left: 70px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .About-image {
@@ -275,7 +269,7 @@ section img {
 }
 
 #page-top a {
-  background: #15B0B0;
+  background: #15b0b0;
   text-decoration: none;
   color: #fff;
   width: 60px;
@@ -285,7 +279,7 @@ section img {
   display: block;
   border-radius: 50%;
   opacity: 0.9;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 #page-top a:hover {
@@ -300,7 +294,6 @@ section img {
   align-items: center;
   justify-content: center;
   background-color: rgb(163, 163, 163);
-  margin:0 -100px;
   padding: 0 100px;
 }
 
@@ -330,8 +323,8 @@ section img {
   display: inline-block;
   text-decoration: none;
   border-radius: 5%;
-} 
+}
 
- .btn:hover {
+.btn:hover {
   color: #66cfcf;
-} 
+}
