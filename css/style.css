@@ -197,13 +197,13 @@ section img {
   background-image: repeating-linear-gradient(
         0deg,
         /* rgba( 47, 201, 165, 0.2) 0px 10px, */
-        rgb( 174, 244, 209) 0px 10px,
+        rgb( 177, 230, 216) 0px 10px,
         rgba(0, 0, 0, 0) 10px 20px
       ),
       repeating-linear-gradient(
         90deg,
         /* rgba( 47, 201, 165, 0.2) 0px 10px, */
-        rgb( 174, 244, 209) 0px 10px,
+        rgb( 177, 230, 216) 0px 10px,
         rgba(0, 0, 0, 0) 10px 20px
       );
   background-repeat: no-repeat;
