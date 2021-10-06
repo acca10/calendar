@@ -193,6 +193,7 @@ section img {
 /* GALLERY */
 .Gallery-wrap {
   margin: 120px auto;
+  background-color: rgb( 177, 230, 216);
   /* background-image: url(../img/wallpaper.jpg); */
   /* background-image: repeating-linear-gradient(
         0deg,
