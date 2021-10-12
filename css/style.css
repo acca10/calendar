@@ -32,7 +32,9 @@ img {
 /* HEADER */
 header {
   margin: 0 auto;
-  padding: 0 10%;
+  /* padding: 0 10%; */
+  padding: 0 100px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .NavBar {
@@ -40,10 +42,15 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
+  align-items: flex-end;
 }
 
 .logo img {
   mix-blend-mode: multiply;
+}
+.logo img {
+  width: 480px;
+  height: 135px;
 }
 
 nav {
@@ -193,7 +200,8 @@ section img {
 /* GALLERY */
 .Gallery-wrap {
   margin: 120px auto;
-  background-color: rgb( 177, 230, 216);
+  /* background-color: rgb( 177, 230, 216); */
+  background-color: rgba( 102,207,207, 0.5);
   /* background-image: url(../img/wallpaper.jpg); */
   /* background-image: repeating-linear-gradient(
         0deg,
