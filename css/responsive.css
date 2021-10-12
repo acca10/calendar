@@ -37,6 +37,13 @@
     line-height: 1.9;
   }
   /* HEADER */
+  header {
+    padding: 0;
+  }
+  .logo img {
+    width: auto;
+    height: auto;
+  }
   .Header-wrapper section {
     flex-direction: column-reverse;
     padding: 0 4%;
@@ -56,16 +63,15 @@
   .NavBar {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   nav {
     line-height: 70px;
     text-align: center;
+    margin-right: 40px;
   }
-  .menu ul {
-    display: flex;
-    justify-content: space-between;
-  }
+
   .menu li {
     margin-left: 15px;
     text-align: center;
@@ -117,6 +123,7 @@
   }
 
   .day {
+    position: relative;
     top: 80px;
     left: 80px;
   }
