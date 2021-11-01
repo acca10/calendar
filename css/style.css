@@ -115,6 +115,22 @@ section img {
   margin-top: 50px;
 }
 
+.info a {
+  color: #fff;
+  padding: 10px;
+  background-color: #15b0b0;
+  opacity: 0.6;
+  border-radius: 15px;
+  width: 140px;
+  text-align: center;
+  float: right;
+  margin: 0 20px 20px 0;
+}
+.info a:hover {
+  color: #fff;
+  background-color: rgb(163, 163, 163);
+}
+
 .info span,
 .asa span {
   font-style: italic;
